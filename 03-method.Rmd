@@ -1,3 +1,12 @@
 # Methods
 
 We describe our methods in this chapter.
+
+```{r my-computations2}
+
+if (exists("myvar")) print(paste0("Variables from previous chapters are visible. myvar = ",myvar))
+else {
+  print("Variables from previous chapters are not visible.")
+}
+
+```
